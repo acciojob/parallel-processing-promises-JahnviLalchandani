@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+
+#output {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#output img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#loading {
+    margin: 15px 0;
+}
+
+#error {
+    color: red;
+    margin: 10px 0;
+}
